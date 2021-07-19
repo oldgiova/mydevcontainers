@@ -1,5 +1,7 @@
 # mydevcontainers
-Dockerfiles for building container with full dev environments
+Dockerfiles for building container with full dev environments.  
+This containers are useful for making your dev environment clean,
+reproducible and modular.
 
-## ruby
-Ruby env
+## ruby-2.7.4
+Ruby 2.7.4 environments
