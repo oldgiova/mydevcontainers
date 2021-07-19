@@ -2,7 +2,9 @@ FROM ruby:2.7.4-buster
 
 RUN apt-get update \
     && apt-get install -y \
-    npm
+    npm \
+    vim \
+    zsh
 
 RUN npm install -g yarn
 
