@@ -10,6 +10,7 @@ RUN mkdir -p /app
 COPY . /app
 WORKDIR /app
 
+RUN chmod +x ./entrypoint.sh
 RUN ./entrypoint.sh
 
 #RUN bundle install
